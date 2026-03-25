@@ -8,7 +8,7 @@ section {
     padding: 10px;
 }
 h2 {
-    color: blue
+    color: blue;
 }
 h1 {
     color: red;
@@ -22,9 +22,9 @@ footer {
     color: #e11414;
 }
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex; 
+    flex-direction: row; 
+   justify-content: space-around;
 }
 .container div {
     width: 45%;
@@ -41,8 +41,17 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center; */
-        background-color: lightblue;
+    background-color: lightblue; 
 }
 .bold-text {
     font-weight: 900;
 }
+.container div.projects {
+    background-color: rgb(169, 147, 147);
+}
+button {
+    background-color: white
+  
+ }
+    button:hover {    background-color: rgb(197, 19, 19)
+    } 
